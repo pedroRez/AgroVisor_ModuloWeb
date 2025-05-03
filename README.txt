@@ -1,2 +1,1 @@
-Projeto AgroVisor - Módulo Web Inicial
-Tecnologias: React, Leaflet, FastAPI, PostGIS
+Rodar: frontend (npm install & npm start) e backend (uvicorn main:app --reload)

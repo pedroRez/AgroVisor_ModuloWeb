@@ -1,0 +1,9 @@
+
+CREATE DATABASE agrovisor;
+\c agrovisor
+CREATE EXTENSION IF NOT EXISTS postgis;
+CREATE TABLE pastos (
+    id SERIAL PRIMARY KEY,
+    nome TEXT NOT NULL,
+    geometry GEOMETRY(POLYGON, 4326) NOT NULL
+);
