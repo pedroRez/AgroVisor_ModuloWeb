@@ -1,0 +1,1 @@
+// React app com mapa Leaflet (placeholder)
